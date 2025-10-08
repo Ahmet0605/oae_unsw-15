@@ -15,7 +15,7 @@
 7. Gelecek çalışmalarda, önerilen yöntemin CICIDS-2017 vb. farklı veri kümeleri üzerinde test edilmesi ve gerçek zamanlı saldırı tespit sistemlerine entegrasyonu planlanmaktadır.
 
 
-**1. Training Stage (Eğitim Aşaması)**
+**1. Training Stage**
 
 Bu aşama tamamen normal ağ trafiği (yani saldırı içermeyen veri) kullanılarak gerçekleştirilir.
 
@@ -34,7 +34,7 @@ Eğitilmiş autoencoder'a eğitim verisi tekrar verilir ve her katmanın üretti
 "Calculate mean μₗ and covariance matrix Σₗ of extracted features."
 Her katman için çıkarılan özelliklerin ortalaması (μ) ve kovaryans matrisi (Σ) hesaplanır. Bu, Mahalanobis uzaklığı için gereklidir.
 
-**2. Testing Stage (Test Aşaması)**
+**2. Testing Stage**
 
 Bu aşamada normal + anormal (saldırı) veriler kullanılır.
 
